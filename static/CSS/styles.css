@@ -1,0 +1,39 @@
+.file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.file-input-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file-input-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: #4F46E5;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.file-submit-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
